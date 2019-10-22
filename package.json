@@ -4,7 +4,7 @@
   "description": "React.js calendar component.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hanse/react-calendar"
+    "url": "git+ssh://git@github.com/hanse/react-calendar.git"
   },
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
@@ -15,14 +15,12 @@
     "test": "jest",
     "prepublish": "yarn run build"
   },
-  "author": "Hanse",
-  "license": "MIT",
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
   "keywords": [
     "react",
     "react.js",
-    "calendar",
     "react component",
-    "react calendar component"
+    "react component library"
   ],
   "peerDependencies": {
     "@babel/core": "7.x",
@@ -31,9 +29,9 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.6.4",
-    "@babel/preset-react": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
     "eslint": "^5.14.1",
@@ -46,7 +44,7 @@
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
-    "react": "^16.8.3",
+    "react": "16.9.0",
     "react-test-renderer": "^16.8.3",
     "timekeeper": "^2.1.2"
   },
@@ -79,5 +77,14 @@
       "browser": true,
       "jest": true
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hanse/react-calendar/issues"
+  },
+  "homepage": "https://github.com/hanse/react-calendar#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "license": "ISC"
 }
